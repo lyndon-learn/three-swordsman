@@ -1,0 +1,8 @@
+.container {
+  content-visibility: auto;
+  contain-intrinsic-size: 320px;
+  /* 
+    如果能准确知道设置了 content-visibility: auto 的元素在渲染状态下的高度，就填写对应的高度。
+    如果无法准确知道高度，也可以填写一个大概的值：
+   */
+}
